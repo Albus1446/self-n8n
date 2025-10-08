@@ -17,7 +17,7 @@
 ```
 这个技术的出名好像离我们并不遥远（本文定稿于25年10月）...
 ```
-![](static/performance.png)
+![](../img/performance.png)
 
 *图 1：通义DeepResearch模型表现（图源:通义实验室Tongyi lab）*
 
