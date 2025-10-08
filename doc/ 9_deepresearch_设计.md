@@ -53,12 +53,12 @@
 
 相关的索引列表在：[https://github.com/scienceaix/deepresearch](https://github.com/scienceaix/deepresearch)，对 Projects 做了很好的整理，如下：
 
-![](static/OoHcbWIPWo7Dn3x3TZMcZuW4nwh.png)
+![](../img/OoHcbWIPWo7Dn3x3TZMcZuW4nwh.png)
 *网页部分截图*
 
 ### **2.2 Deepresearch 的三个发展时期**
 
-![](static/RDCAbZrxeoI01GxxuC0cVnvJn7b.png)
+![](../img/RDCAbZrxeoI01GxxuC0cVnvJn7b.png)
 
 **原初期探索期**（2023 年-2025 年 2 月），以 n8n、QwenLM/QwenAgent 等工作流自动化框架为代表。这一时期是DeepResearch概念的孕育和尝试阶段。一些早期工作将自动化研究工作流的想法付诸实践，或基于开源大模型推出Agent框架。这些探索
   **验证了“让 AI 去做研究”的可行性**
@@ -75,27 +75,27 @@
 ### **2.3 Deepresearch 的层次化技术框架**
 
 尽管不同 DeepResearch 实现各有侧重，但从技术上看普遍包含层次分明的四个核心模块 ￼：基座模型与推理引擎、工具使用与环境交互、任务规划与执行控制、以及知识综合与输出生成。每一层各司其职，共同支撑起深度研究的完整流程：
-![](static/NofobSleaoNIlXxaGx5cuU3bnMf.png)
+![](../img/NofobSleaoNIlXxaGx5cuU3bnMf.png)
 
 ### **2.4 Deepresearch 的实现架构**
 
 包括四种基础架构模式：单体式、基于流水线的、多智能体以及混合实现。
 
 整体大的逻辑在：
-![](static/Abshb4Di0oMC2wxdMlHcWrTvnAf.png)
+![](../img/Abshb4Di0oMC2wxdMlHcWrTvnAf.png)
 
 细分的逻辑可以拆解下：
 
 ---
 - **单体模式** 将所有深度研究能力整合在一个以核心推理引擎为中心的统一的架构框架内，采用集中控制机制，直接集成专用模块。这种架构采用集中式控制，组件间紧密耦合，共享统一的内存和上下文。优点是推理过程一致、整体实现简单，适合小规模快速部署。但缺点是扩展性和并行能力受限，难以灵活替换模块。
-![](static/YZ8WbivleoiXo4xuNNhc4DosnAg.png)
+![](../img/YZ8WbivleoiXo4xuNNhc4DosnAg.png)
 
 - **流水线模式** 通过一系列通过明确定义的接口连接的专业处理阶段实现深度研究能力，将研究工作流分解为离散的处理组件，并在各阶段之间进行明确的数据转换。例如可以依次设置 “意图理解 → 查询扩展 → 信息抓取 → 观点抽取 → 证据核查 → 报告整合”等模块，每一步由独立组件完成[<sup>[4]</sup>](#ref-4)。流水线架构的优点是模块解耦、接口标准化，各阶段易于替换或改进，便于监控和调试，特别适合需要定制工作流的企业应用。但是由于严格的顺序流程，遇到复杂推理任务时可能不如其他架构灵活。
 
 - **多智能体模式** 通过由明确通信协议协调的专门自主智能体生态系统，在具有不同角色和责任的协作智能体之间分配研究功能。
 
 - **混合模式** 结合多种架构模式，以统一实现中平衡各自的优势。
-![](static/Dhpdbf0i5oYmkAx4VZscbh5MnrX.png)
+![](../img/Dhpdbf0i5oYmkAx4VZscbh5MnrX.png)
 ---
 
 ### **2.5 Deepresearch 存在的几个问题**
@@ -107,7 +107,7 @@
 - 来源归属与知识产权（Source Attribution and IP Issues）
 - 可访问性与数字鸿沟（Accessibility and Digital Divide）
 
-![](static/Je7NbaaLMoAvsFxdnDScObIRnZg.png)
+![](../img/Je7NbaaLMoAvsFxdnDScObIRnZg.png)
 
 ### **2.6 Deepresearch 值得做的几个研究方向**
 
@@ -118,7 +118,7 @@
 - 领域特化优化（Domain-Specific Optimization）
 - 人机协作标准（Human-AI Collaboration Standards）
 
-![](static/Zyk5bXqXBoKDK2xryZlcnOFUnie.png)
+![](../img/Zyk5bXqXBoKDK2xryZlcnOFUnie.png)
 *图 ：DeepResearch 未来四大研究方向示意（图源:@老刘说NLP）*
 
 ### **2.7 deepresearch 的发展方向**
@@ -137,15 +137,15 @@ deepresearch 的出现一定程度上解决了两个技术的痛点，并为我�
 
 - **可能是卷表现形式，让结果更适合大家接受。**比如秘塔处理完搜索后会给出报告，大家都很喜欢这样的结果呈现形式。
 
-![](static/UPGPbfwIQoCRQOxG1fXcK5ICnHc.png)
+![](../img/UPGPbfwIQoCRQOxG1fXcK5ICnHc.png)
 
 - **也有可能是卷策略的，让「deepresearch」更「deep」一些**，比如这篇文章《[用子模优化法为 DeepResearch 生成多样性查询](https://mp.weixin.qq.com/s/ZB4Rc9GErYsx13-UqDjU3A)》。
 
-![](static/HJbObcBdro5M2lxq7XHcoYKlnxd.png)
+![](../img/HJbObcBdro5M2lxq7XHcoYKlnxd.png)
 
 - **最后一种是卷垂直领域，垂直领域优势也许会被放大。**领域的特定工具需要定制化开发，也许是个不错的方向~
 
-![](static/VFApb9Eabob5eox9ND1cRtgXn7b.png)
+![](../img/VFApb9Eabob5eox9ND1cRtgXn7b.png)
 
 ## 三、N8n 实现 Deepresearch
 
@@ -165,7 +165,7 @@ deepresearch 的出现一定程度上解决了两个技术的痛点，并为我�
 过程设计。我们输入查询主题后，大模型处理我们需要查询的内容，交给搜索引擎查询，然后判断是否完成的任务。如果完成返回调研结果即可，如果没有完成继续重复执行处理与查询的任务。
 
 大概的流程图如下：
-![](static/1.png)
+![](../img/1.png)
 
 > 有同学会问为啥要设计一个轮数判断，这个为啥设计在这里。如果第一次我们执行完就查到了结果。第二次大家并不希望流程跑完，所以尽可能把这个判断往前放。这样不会浪费查询资源，尽可能短的流程满足需求。
 
@@ -186,7 +186,7 @@ deepresearch 的出现一定程度上解决了两个技术的痛点，并为我�
 
     第一个判断条件中的「shouldContinue」变量为「研究中期」的「优化回答和逻辑规划」Agent节点给出, 由LLM自行判断答案是否完美呢? 是否要继续研究呢? 回答true or false. 如果回答 false 则迈向「研究后期」.\
     第二个判断条件则**可以由用户决定**, 即为研究深度, 你可以改变目标值来决定研究的最大循环次数, 次数越多, 研究越深入, 同时运行时间也会相应变长, token 使用也相应变多. 目标值默认为3. 
-    ![](static/2.png)
+    ![](../img/2.png)
   - Model 设置
   
     注意到在「Model」部分，选用了DeepSeek Model节点作为Agent的模型. 你可以点开小鲸鱼, 按照 「Credential to connect with >> Create new credential >> API-key」的顺序, 最后输入个人API即可. 
@@ -202,7 +202,7 @@ deepresearch 的出现一定程度上解决了两个技术的痛点，并为我�
             Name:Authorization,
             Value:<your_Tavily_API_Key>
           }
-    ![](static/3.png)
+    ![](../img/3.png)
 
 - **模型记忆**
 
@@ -219,7 +219,7 @@ OK呀,现在你的环境已经成功配置好了, 你完完全全可以把任何
 那么这个「深度研究工作流」是怎样运行的呢?
 
 ### 3.3.1 研究初期
-![](static/4.png)
+![](../img/4.png)
 - **对话框输入**
 
   这个节点是触发器, 或者也可以理解为开关, 当你在左下「对话框」中发送prompt时, 开关就已按下, 这个节点接收prompt的内容传递给下一个节点. 
@@ -273,7 +273,7 @@ OK呀,现在你的环境已经成功配置好了, 你完完全全可以把任何
   首先利用「正则表达式」匹配提取有效字段, 然后分别提取出 nextSearchTopic 和 result 字段。
 
 ### 3.3.2 研究中期
-![](static/5.png)
+![](../img/5.png)
 「研究中期」主要是循环体:
 
 -[-「Tavily」-「优化回答和逻辑规划」-「提取2」 - 判断 -]$_n$-
@@ -351,7 +351,7 @@ OK呀,现在你的环境已经成功配置好了, 你完完全全可以把任何
 
 ### 3.3.3 研究后期
 
-![](static/5.png)
+![](../img/5.png)
 
 「研究后期」主要是「研究总结」Agent节点对于整个思考过程进行总结归纳, 最后给出回答于左下聊天框.
 
